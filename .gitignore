@@ -205,3 +205,33 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Data files - quá lớn, không commit
+data/raw/
+data/processed/
+*.csv
+*.parquet
+# Cho phép sample nhỏ
+!data/sample/*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Environments
+venv/
+env/
+.env
+
+# VS Code
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Models trung gian (chỉ commit final models)
+models/checkpoints/
