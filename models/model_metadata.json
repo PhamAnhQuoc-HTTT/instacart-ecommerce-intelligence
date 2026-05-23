@@ -1,0 +1,41 @@
+{
+  "model_type": "XGBClassifier",
+  "n_features": 25,
+  "feature_columns": [
+    "add_to_cart_order",
+    "order_dow",
+    "order_hour_of_day",
+    "days_since_prior_order",
+    "total_orders",
+    "total_items_bought",
+    "avg_basket_size",
+    "reorder_ratio",
+    "total_reordered_items",
+    "avg_order_hour",
+    "avg_days_between_orders",
+    "avg_days_between_items",
+    "weekend_ratio",
+    "peak_hour_ratio",
+    "unique_products",
+    "unique_departments",
+    "times_ordered",
+    "unique_buyers",
+    "unique_orders",
+    "reorder_rate",
+    "avg_cart_position",
+    "user_product_reorder_signal",
+    "is_early_cart",
+    "product_popularity_log",
+    "user_engagement_log"
+  ],
+  "train_size": 1107693,
+  "test_size": 276924,
+  "metrics": {
+    "accuracy": 0.7345264404674207,
+    "precision": 0.7588021748034766,
+    "recall": 0.815829638343438,
+    "f1": 0.7862832424386897,
+    "roc_auc": 0.8035263559165478
+  },
+  "class_balance": 0.5985944127509629
+}

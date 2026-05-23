@@ -232,6 +232,3 @@ Thumbs.db
 
 # Streamlit
 .streamlit/secrets.toml
-
-# Models trung gian (chỉ commit final models)
-models/checkpoints/
