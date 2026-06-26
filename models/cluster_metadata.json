@@ -1,0 +1,30 @@
+{
+  "model_type": "KMeans",
+  "n_clusters": 4,
+  "n_users": 206209,
+  "features": [
+    "total_orders",
+    "avg_basket_size",
+    "reorder_ratio",
+    "avg_days_between_orders",
+    "weekend_ratio",
+    "unique_departments"
+  ],
+  "persona_map": {
+    "0": "Loyal Regulars",
+    "1": "Occasional Weekday Shoppers",
+    "2": "Weekend Explorers",
+    "3": "Bulk Family Buyers"
+  },
+  "metrics": {
+    "wcss": 682045.6923684543,
+    "silhouette_score": 0.19385581550979544,
+    "n_iterations": 20
+  },
+  "cluster_sizes": {
+    "0": 38034,
+    "1": 65027,
+    "2": 41559,
+    "3": 61589
+  }
+}
