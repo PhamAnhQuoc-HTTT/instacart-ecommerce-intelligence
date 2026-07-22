@@ -237,13 +237,3 @@ Các notebook được thiết kế để chạy trên **Google Colab** (có k�
 | Plotly | Biểu đồ tương tác trên Dashboard |
 | Streamlit | Giao diện web Dashboard |
 | Matplotlib / Seaborn | Biểu đồ trong Notebooks |
-
----
-
-## Tác giả
-
-**Phạm Anh Quốc** — Sinh viên ngành Hệ thống Thông tin, Trường Đại học Công nghệ Thông tin (UIT)
-
----
-
-*Dự án phục vụ mục đích học tập và portfolio cá nhân.*
